@@ -14,7 +14,12 @@ header{
     justify-content: space-between;
     height: 100px;
     background-color: rgb(241, 241, 202);
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
 
 img{
@@ -42,10 +47,54 @@ input[type="email"]{
     display: block;
     width: 500px;
     height: 50px;
+    margin-top: 120px;
+    margin-bottom: 10px;
 }
 input[type="submit"]{
     display: block;
     width: 30%;
     margin: auto;
     height: 50px;
+}
+
+#how-it-works{
+    width: 70%;
+    margin: auto;
+}
+
+#about{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px 10px;
+    background-color: grey;
+}
+
+footer{
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    padding-bottom: 20px;
+    
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+footer p{
+    text-align: right;
 }
