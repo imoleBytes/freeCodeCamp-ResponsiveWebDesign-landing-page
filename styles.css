@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(241, 241, 202);
+    margin-bottom: 20px;
+}
+
+img{
+    display: block;
+    width: 400px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-link{
+    margin-left: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
+input[type="email"]{
+    display: block;
+    width: 500px;
+    height: 50px;
+}
+input[type="submit"]{
+    display: block;
+    width: 30%;
+    margin: auto;
+    height: 50px;
+}
