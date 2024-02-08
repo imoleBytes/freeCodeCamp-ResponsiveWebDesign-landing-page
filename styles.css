@@ -80,6 +80,12 @@ input[type="submit"]{
     background-color: grey;
 }
 
+@media screen and (max-width: 900px){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 footer{
     margin: auto;
     margin-top: 20px;
